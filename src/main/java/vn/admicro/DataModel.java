@@ -26,7 +26,11 @@ public class DataModel {
     String sc;
     int geographic;
 
-    public DataModel(String[] model){
+    public DataModel() {
+    }
+
+    public DataModel(String data){
+        String model[] = data.split("\t");
         setTimeCreate(model[0]);
         setCookieCreate(model[1]);
         setBrowserCode(Integer.parseInt(model[2]));

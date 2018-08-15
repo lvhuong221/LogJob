@@ -1,25 +1,23 @@
 package vn.admicro;
 
+
+import com.google.gson.Gson;
 import org.apache.spark.SparkConf;
-import org.apache.spark.api.java.JavaRDD;
-import org.apache.spark.api.java.JavaSparkContext;
-import org.apache.spark.api.java.function.Function;
-import scala.Function1;
+import org.apache.spark.SparkContext;
+import org.apache.spark.sql.Dataset;
+import org.apache.spark.sql.SparkSession;
 
 public class Testing {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setAppName("Convert text file to Parquet");
-        JavaSparkContext sc = new JavaSparkContext(conf);
-        String path = "adv1475687109957.dat";
-        if(args[0] != null) path = args[0];
-        JavaRDD<String> data = sc.textFile(args[0],1);
-        JavaRDD<String> out = data.map(new Function<String, String>() {
-            @Override
-            public String call(String s) throws Exception {
-                String split[] = s.split("\t");
-                return "Time: "+ split[0]+ "\t"+split[1] + "\tguid: "+split[13];
-            }
-        });
-        out.coalesce(1).saveAsTextFile(args[1]);
+        SparkContext sc = new SparkContext(conf);
+        SparkSession session = new SparkSession(sc);
+
+        DataModel model = new DataModel();
+        Gson gson = new Gson();
+        String json = gson.toJson(model);
+        // Create the DataFrame
+        Dataset df = session.read().json(json);
+
     }
 }
