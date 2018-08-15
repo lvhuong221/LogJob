@@ -17,10 +17,9 @@ public class Testing {
             @Override
             public String call(String s) throws Exception {
                 String split[] = s.split("\t");
-                System.out.println("Time: "+ split[0]+ " & "+split[1]);
-                System.out.println("guid: "+split[13]);
-                return null;
+                return "Time: "+ split[0]+ "\t"+split[1] + "\tguid: "+split[13];
             }
         });
+        out.coalesce(1).saveAsTextFile(args[1]);
     }
 }
