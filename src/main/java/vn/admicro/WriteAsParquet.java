@@ -22,25 +22,25 @@ public class WriteAsParquet {
         Path inputPath = new Path(args[0]);
         MessageType schema = MessageTypeParser.parseMessageType(
                 "Message DataModel{\n" +
-                        "required int32 timeCreate(DATE)\n" +
-                        "required int32 cookieCreate(DATE)\n" +
-                        "required int32 browserCode\n" +
-                        "required binary browserVer (UTF8)\n" +
-                        "required int32 osCode\n" +
-                        "required binary osVer (UTF8)\n" +
-                        "required int64 ip\n" +
-                        "required int32 locId\n" +
-                        "required binary domain(UTF8)\n" +
-                        "required int32 siteId\n" +
-                        "required int32 cId\n" +
-                        "required binary path (UTF8)\n" +
-                        "required binary referer (UTF8)\n" +
-                        "required int64 guid\n" +
-                        "required binary flashVersion (UTF8)\n" +
-                        "required binary jre (UTF8)\n" +
-                        "required binary sr (UTF8)\n" +
-                        "required binary sc (UTF8)\n" +
-                        "required int32 geopraphic");
+                        "required int32 timeCreate(DATE);\n" +
+                        "required int32 cookieCreate(DATE);\n" +
+                        "required int32 browserCode;\n" +
+                        "required binary browserVer (UTF8);\n" +
+                        "required int32 osCode;\n" +
+                        "required binary osVer (UTF8);\n" +
+                        "required int64 ip;\n" +
+                        "required int32 locId;\n" +
+                        "required binary domain(UTF8);\n" +
+                        "required int32 siteId;\n" +
+                        "required int32 cId;\n" +
+                        "required binary path (UTF8);\n" +
+                        "required binary referer (UTF8);\n" +
+                        "required int64 guid;\n" +
+                        "required binary flashVersion (UTF8);\n" +
+                        "required binary jre (UTF8);\n" +
+                        "required binary sr (UTF8);\n" +
+                        "required binary sc (UTF8);\n" +
+                        "required int32 geopraphic;}");
         Configuration confH = new Configuration();
         GroupWriteSupport writeSupport = new GroupWriteSupport();
         GroupWriteSupport.setSchema(schema, confH);
