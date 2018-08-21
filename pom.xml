@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>vn.admicro.LogJob</mainClass>
+                            <mainClass>vn.admicro.WriteAsParquet</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -35,7 +35,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>vn.admicro.LogJob</mainClass>
+                            <mainClass>vn.admicro.WriteAsParquet</mainClass>
                         </manifest>
                     </archive>
                     <forceCreation>true</forceCreation>
@@ -93,7 +93,7 @@
         <dependency>
             <groupId>org.apache.parquet</groupId>
             <artifactId>parquet-hadoop</artifactId>
-            <version>1.10.0</version>
+            <version>1.9.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
