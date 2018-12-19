@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccae6995-446b-4801-91cb-44184e385dfa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vn/admicro/LogJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LogJob.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vn/admicro/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/admicro/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/ConvertToParquet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/admicro/ConvertToParquet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vn/admicro/WriteAsParquet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vn/admicro/WriteAsParquet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/DataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/admicro/DataModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/Testing$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/admicro/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/WriteAsParquet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vn/admicro/WriteAsParquet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/vn/admicro/WriteAsParquet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,6 +21,11 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LogJob$WriteAsParquet.ic" NAME="WriteAsParquet Coverage Results" MODIFIED="1535227212159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>vn.admicro.*</FILTER>
+    </SUITE>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1670360344">
@@ -53,26 +60,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2029453401">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="2" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="10" />
+          <entry key="dat" value="7" />
+          <entry key="java" value="13" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="13" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="5910" />
+          <entry key="xml" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="5910" />
+          <entry key="XML" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/LogJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="363">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2157#2164#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +131,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/adv1475687109957.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" selection-end-line="1" />
+            <state>
+              <caret column="123" lean-forward="true" selection-start-column="123" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/Testing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="246" selection-start-column="246" selection-end-column="246" />
             </state>
           </provider>
         </entry>
@@ -90,8 +161,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,16 +179,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>do dai</find>
+      <find>writeasparquet</find>
+      <find>writeas</find>
+      <find>writeAsparquet</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/admicro/Model.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java" />
+        <option value="$PROJECT_DIR$/log.txt" />
         <option value="$PROJECT_DIR$/src/main/java/vn/admicro/Testing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/admicro/WriteAsParquet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/vn/admicro/LogJob.java" />
       </list>
     </option>
   </component>
@@ -125,9 +211,20 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogJob" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="311" />
-    <option name="width" value="1062" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -141,10 +238,13 @@
           <State>
             <id>Java</id>
           </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Deprecation</id>
+            <id>MagicConstant</id>
           </State>
         </selected-state>
       </profile-state>
@@ -156,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,14 +294,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534329629016" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536997607134" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-example" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -222,10 +324,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vn.admicro.Testing" />
+  <component name="RunManager" selected="Application.LogJob">
+    <configuration name="LogJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.admicro.LogJob" />
       <module name="LogJob" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/localfs/pageviewlog/pageviewlog.parquet 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="vn.admicro.*" />
@@ -236,9 +339,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.admicro.Testing" />
+      <module name="LogJob" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/localfs/PageViewLog.dat $USER_HOME$/localfs/Parquet/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.admicro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WriteAsParquet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vn.admicro.WriteAsParquet" />
+      <module name="LogJob" />
+      <option name="PROGRAM_PARAMETERS" value="$USER_HOME$/localfs/PageViewLog.dat $USER_HOME$/localfs/Parquet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vn.admicro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Testing" />
+      <item itemvalue="Application.WriteAsParquet" />
+      <item itemvalue="Application.LogJob" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LogJob" />
         <item itemvalue="Application.Testing" />
+        <item itemvalue="Application.WriteAsParquet" />
       </list>
     </recent_temporary>
   </component>
@@ -255,81 +393,174 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-1" width="1282" height="701" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20988655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25531915" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924694" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50162077" side_tool="true" weight="0.14711033" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4611021" weight="0.3625219" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924694" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32924694" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49837926" weight="0.32749563" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924694" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5008104" side_tool="true" weight="0.4290718" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3298217" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3298217" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java" />
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_181/src.zip!/java/io/ObjectStreamClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        <state relative-caret-position="96">
+          <caret line="1416" selection-start-line="1416" selection-end-line="1416" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adv1475687109957.dat">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1.jar!/org/apache/spark/api/java/function/Function.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-end-line="1" />
+        <state relative-caret-position="136">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.3.1/spark-core_2.11-2.3.1.jar!/org/apache/spark/api/java/AbstractJavaRDDLike.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar!/org/apache/spark/sql/types/IntegerType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.jar!/org/apache/spark/sql/SparkSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="429" column="13" lean-forward="true" selection-start-line="429" selection-start-column="13" selection-end-line="429" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/2.3.0/spark-catalyst_2.11-2.3.0.jar!/org/apache/spark/sql/RowFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.jar!/org/apache/spark/sql/Dataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="1732" column="22" selection-start-line="1732" selection-start-column="22" selection-end-line="1732" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.0/spark-sql_2.11-2.3.0.jar!/org/apache/spark/sql/DataFrameReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="211" column="24" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.3.1/spark-sql_2.11-2.3.1.jar!/org/apache/spark/sql/Dataset.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="319" column="24" selection-start-line="319" selection-start-column="24" selection-end-line="319" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/Model.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/Testing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="380">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="398">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/ConvertToParquet.java">
+    <entry file="file://$PROJECT_DIR$/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        <state>
+          <caret column="246" selection-start-column="246" selection-end-column="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/WriteAsParquet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="51" selection-start-line="51" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2157#2164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adv1475687109957.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="123" lean-forward="true" selection-start-column="123" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/DataModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/vn/admicro/LogJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
