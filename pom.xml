@@ -19,7 +19,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>vn.admicro.LogJob</mainClass>
+                            <mainClass>vn.admicro.SparkExercise</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -35,7 +35,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>vn.admicro.LogJob</mainClass>
+                            <mainClass>vn.admicro.SparkExercise</mainClass>
                         </manifest>
                     </archive>
                     <forceCreation>true</forceCreation>
